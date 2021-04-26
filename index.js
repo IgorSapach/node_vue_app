@@ -3,9 +3,9 @@ const app = express();
 const host = 'http://localhost';
 const port = 3000
 
-// public directory to serve the Vue App
+// We'll use the public directory to serve the Vue App
 app.use(express.static('public'));
 
 app.listen(port, () => {
-  console.log(`App listening on ${host}:${port}`);
+ console.log(`App listening on ${host}:${port}`);
 });
